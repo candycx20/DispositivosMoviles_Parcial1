@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    app:cardBackgroundColor="@color/todo_background_card"
+    android:layout_marginVertical="4dp"
+    android:layout_marginHorizontal="4dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      •"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:layout_marginEnd="8dp"
+            />
+        <TextView
+            android:id="@+id/tvTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prueba"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:layout_marginLeft="35dp"
+            />
+        <TextView
+            android:id="@+id/tvTaskNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prueba2"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:layout_marginLeft="35dp"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
